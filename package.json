@@ -7,7 +7,8 @@
   "author": "Unfold",
   "license": "ISC",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postpublish": "greenkeeper-postpublish"
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
@@ -21,6 +22,7 @@
     "eslint": "^3.7.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-react": "^6.4.1"
+    "eslint-plugin-react": "^6.4.1",
+    "greenkeeper-postpublish": "^1.0.1"
   }
 }

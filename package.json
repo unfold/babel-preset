@@ -7,11 +7,14 @@
   "author": "Unfold",
   "license": "ISC",
   "scripts": {
-    "lint": "eslint ."
+    "test": "eslint ."
   },
   "files": [
     "index.js"
   ],
+  "eslintConfig": {
+    "extends": "@unfold/eslint-config"
+  },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-lodash": "^3.2.6",
@@ -20,10 +23,7 @@
     "babel-preset-stage-0": "^6.3.13"
   },
   "devDependencies": {
-    "@unfold/eslint-config": "^1.0.2",
-    "eslint": "^3.8.1",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-react": "^6.4.1"
+    "@unfold/eslint-config": "^1.3.1",
+    "eslint": "^3.8.1"
   }
 }

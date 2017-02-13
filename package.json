@@ -17,13 +17,14 @@
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-plugin-lodash": "^3.2.6",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13"
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint-plugin-appjson": "^0.1.3"
   },
   "devDependencies": {
-    "@unfold/eslint-config": "^1.3.1",
-    "eslint": "^3.8.1"
+    "@unfold/eslint-config": "^2.0.1",
+    "eslint": "^3.15.0"
   }
 }

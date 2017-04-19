@@ -1,2 +1,2 @@
-# Unfold ESLint config
-This is a linting config which extends [Airbnb's javascript styleguide](https://github.com/airbnb/javascript) with our own modifications.
+# Unfold Babel preset
+This is a Babel preset which extends [babel-preset-env](https://github.com/babel/babel-preset-env) with our own modifications.
